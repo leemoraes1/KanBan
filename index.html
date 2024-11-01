@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>KanBan</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <main class="kanban">
+        <!--column 001-->
+        <div class="kanban-column" data-id="1">
+            <div class="kanban-title">
+                <h2>Pendente</h2>
+                <button class="add-card">
+                    <i class="fa-sharp fa-regular fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>Alta prioridade</span>
+                    </div>
+                    <p class="card-title">Atualizar Banco de Dados.</p>
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p><i class="fa-regular fa-comment"></i>1</p>
+                            <p><i class="fa-solid fa-paperclip"></i>1</p>
+                        </div>
+                        <div class="user">
+                            <img src="src/css/images/34ab56c4189d19c5c98720a712b34fb3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!--column 002-->
+        <div class="kanban-column" data-id="2">
+            <div class="kanban-title">
+                <h2>Em front-end</h2>
+                <button class="add-card">
+                    <i class="fa-sharp fa-regular fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>Alta prioridade</span>
+                    </div>
+                    <p class="card-title">Revisar documento do Projeto</p>
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p><i class="fa-regular fa-comment"></i>2</p>
+                            <p><i class="fa-solid fa-paperclip"></i>1</p>
+                        </div>
+                        <div class="user">
+                            <img src="src/css/images/4232d4097c635eafcbbcb8dfae19cb51.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--column 003-->
+        <div class="kanban-column" data-id="3">
+            <div class="kanban-title">
+                <h2>Em back-end</h2>
+                <button class="add-card">
+                    <i class="fa-sharp fa-regular fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge low">
+                        <span>Baixa prioridade</span>
+                    </div>
+                    <p class="card-title">Criar Apresentação</p>
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p><i class="fa-regular fa-comment"></i>1</p>
+                            <p><i class="fa-solid fa-paperclip"></i>1</p>
+                        </div>
+                        <div class="user">
+                            <img src="src/css/images/ba96cc065b2abb1a94a25c4717d34dbf.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--column 004-->
+        <div class="kanban-column" data-id="4">
+            <div class="kanban-title">
+                <h2>Em teste</h2>
+                <button class="add-card">
+                    <i class="fa-sharp fa-regular fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge medium">
+                        <span>Media prioridade</span>
+                    </div>
+                    <p class="card-title">Revisar Projeto</p>
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p><i class="fa-regular fa-comment"></i>2</p>
+                            <p><i class="fa-solid fa-paperclip"></i>1</p>
+                        </div>
+                        <div class="user">
+                            <img src="src/css/images/ba96cc065b2abb1a94a25c4717d34dbf.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--column 005-->
+        <div class="kanban-column" data-id="5">
+            <div class="kanban-title">
+                <h2>Concluido</h2>
+                <button class="add-card">
+                    <i class="fa-sharp fa-regular fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge low">
+                        <span>Baixa prioridade</span>
+                    </div>
+                    <p class="card-title">Documentação tecnica</p>
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p><i class="fa-regular fa-comment"></i>2</p>
+                            <p><i class="fa-solid fa-paperclip"></i>4</p>
+                        </div>
+                        <div class="user">
+                            <img src="src/css/images/ba96cc065b2abb1a94a25c4717d34dbf.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
